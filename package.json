@@ -1,6 +1,6 @@
 {
     "name"        : "ghost",
-    "version"     : "0.5.0",
+    "version"     : "0.5.1",
     "description" : "Just a blogging platform.",
     "author"      : "Ghost Foundation",
     "homepage"    : "http://ghost.org",
@@ -21,7 +21,7 @@
             "url": "https://raw.github.com/TryGhost/Ghost/master/LICENSE"
         }
     ],
-    "main": "index.js",
+    "main": "./core/index",
     "scripts": {
         "start": "node index",
         "test": "./node_modules/.bin/grunt validate --verbose"
